@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>E Store Amda</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="eCommerce HTML Template Free Download" name="keywords">
+    <meta content="eCommerce HTML Template Free Download" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+    <script src="https://www.w3schools.com/appml/2.0.3/appml.js"></script>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top bar Start -->
+    <div appml-include-html="./inc_topBar.html">
+    </div>
+    <!-- Top bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a href="#" class="navbar-brand">MENU</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto">
+                        <a href="index.html" class="nav-item nav-link">Accueil</a>
+                        <a href="product-list.html" class="nav-item nav-link active">Products Listés</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Bottom Bar Start -->
+    <div appml-include-html="inc_bottomBar.html"></div>
+
+    <!-- Bottom Bar End -->
+
+    <!-- Breadcrumb Start -->
+    <div class="breadcrumb-wrap">
+        <div class="container-fluid">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Accueil</a></li>
+                <li class="breadcrumb-item active"><a href="#">Products Listés</a></li>
+                <li class="breadcrumb-item "><a href="./product-detailJus.html">Jus Détaillés</a></li>
+                <l class="breadcrumb-item"><a href="./produit-detailSirop.html">Sirop Detaillés</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Product List Start -->
+    <div class="product-view">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                        </div>
+                        <div class="col-md-4" id="jus">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Juis d'Ananan</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusAnanas.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus Baobab</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusBoabab.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus de Gingembre</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusGingembre1.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus de Bissap</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusBisap.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus de Citron</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusCitron.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus de Mangue</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusMango.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus de Momringa</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusMoriga.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus de Tchiayo</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusTchiayo1.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus de Tamarin</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusTamarin.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus de Pomme</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusPomme.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus de Pastèque</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/jusPastec.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" id="sirop">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Sirop de Citron</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/SiropCitron.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Sirop de Baobab</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/siropBaobab.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Sirop de Gingembre</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/SiropGingembre.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Sirop de Moringa</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/siropMoringa.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Sirop de Tamarin</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/siropTamarin.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Sirop de Tchiayo</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/SiropTchiayo.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" id="cocktail">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Cocktail</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/cocktailAnanaGingembre.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination Start -->
+                    <div class="col-md-12">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Précédant</a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Suivant</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Pagination Start -->
+                </div>
+
+                <!-- Side Bar Start -->
+                <div class="col-lg-4 sidebar">
+                    <div appml-include-html="inc_sideBarCategory.html"></div>
+
+                    <div class="sidebar-widget widget-slider">
+                        <div class="sidebar-slider normal-slider">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jus</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/afficheFruit.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Cocktail</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/cocktailAnanaGingembre.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Sirop</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/SiropGemTranvasion.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="product-price">
+                                    <h3></h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Achetez</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Side Bar End -->
+            </div>
+        </div>
+    </div>
+    <!-- Product List End -->
+
+    <!-- Brand Start -->
+    <!-- Brand End -->
+
+    <!-- Footer Start -->
+    <div appml-include-html="inc_footer.html"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
