@@ -96,7 +96,7 @@
                             <div class="col-md-7">
                                 <div class="product-content">
                                     <div class="title">
-                                        <h2>Nos Sirops</h2>
+                                        <h2 id="sirop">Nos Sirops</h2>
                                     </div>
                                     <div class="ratting">
                                         <i class="fa fa-star"></i>
@@ -134,29 +134,22 @@
                                     <a class="nav-link active" data-toggle="pill" href="#description">Description</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="pill" href="#specification">Specification</a>
+                                    <a class="nav-link" data-toggle="pill" href="#specification">Vertus</a>
                                 </li>
 
                             </ul>
 
                             <div class="tab-content">
                                 <div id="description" class="container tab-pane active">
-                                    <h4>Product description</h4>
+                                   
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non.
-                                        Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque. Suspendisse sit amet neque neque. Praesent suscipit et magna eu iaculis. Donec arcu libero,
-                                        commodo ac est a, malesuada finibus dolor. Aenean in ex eu velit semper fermentum. In leo dui, aliquet sit amet eleifend sit amet, varius in turpis. Maecenas fermentum ut ligula at consectetur. Nullam et tortor
-                                        leo.
+                                        Les sirops Amdagri sont des produits naturels résultant de la concentrations d'extraits des fruits ou légumes. ce qui justie leurs richesse en micronutriments. De ce fait, ils sont  exceptionnelles sources de vitamines et d'oligo-éléments.
+
                                     </p>
                                 </div>
-                                <div id="specification" class="container tab-pane fade">
-                                    <h4>Product specification</h4>
-                                    <ul>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
+                                <div id="specification" class="container tab-pane fade" appml-data="./sirop.json">
+                                    <ul appml-repeat="sirops">
+                                        <li><h4>{{name}}:</h4> <p>{{description}}</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -172,7 +165,7 @@
                             <div class="col-lg-3">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Sirop de Gingembre</a>
+                                        <a href="#">jus de Gingembre</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -183,7 +176,7 @@
                                     </div>
                                     <div class="product-image">
                                         <a href="product-detail.html">
-                                            <img src="img/SiropGingembre.jpg" alt="Product Image">
+                                            <img src="img/jusGingembre1.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
                                             <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -200,7 +193,7 @@
                             <div class="col-lg-3">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Sirop de Tamarin</a>
+                                        <a href="#">jus de Tamarin</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -211,7 +204,7 @@
                                     </div>
                                     <div class="product-image">
                                         <a href="product-detail.html">
-                                            <img src="img/siropTamarin.jpg" alt="Product Image">
+                                            <img src="img/jusTamarin.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
                                             <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -228,7 +221,7 @@
                             <div class="col-lg-3">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">sirop de Baobab</a>
+                                        <a href="#">jus de Baobab</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -239,7 +232,7 @@
                                     </div>
                                     <div class="product-image">
                                         <a href="product-detail.html">
-                                            <img src="img/siropBaobab.jpg" alt="Product Image">
+                                            <img src="img/jusBaobab.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
                                             <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -256,7 +249,7 @@
                             <div class="col-lg-3">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Sirop de Moringa</a>
+                                        <a href="#">jus de Moringa</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -267,7 +260,7 @@
                                     </div>
                                     <div class="product-image">
                                         <a href="product-detail.html">
-                                            <img src="img/siropMoringa.jpg" alt="Product Image">
+                                            <img src="img/jusMoriga.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
                                             <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -284,7 +277,7 @@
                             <div class="col-lg-3">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Sirop de Citron</a>
+                                        <a href="#">jus de Citron</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -295,7 +288,7 @@
                                     </div>
                                     <div class="product-image">
                                         <a href="product-detail.html">
-                                            <img src="img/SiropCitron.jpg" alt="Product Image">
+                                            <img src="img/jusCitron.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
                                             <a href="#"><i class="fa fa-cart-plus"></i></a>

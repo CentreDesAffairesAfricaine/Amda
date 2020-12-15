@@ -93,7 +93,7 @@
                                 </div>
                             </div>
                             <div class="col-md-7">
-                                <div class="product-content">
+                                <div class="product-content" id="jus">
                                     <div class="title">
                                         <h2>Nos Jus</h2>
                                     </div>
@@ -132,7 +132,7 @@
                                     <a class="nav-link active" data-toggle="pill" href="#description">Description</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="pill" href="#specification">Specification</a>
+                                    <a class="nav-link" data-toggle="pill" href="#specification">Vertus</a>
                                 </li>
 
                             </ul>
@@ -144,14 +144,9 @@
                                         Les jus Amdagrisont 100% naturels, peu calorifiques et riches en eau, ils sont sources de bonne santé et de vitamines exceptionnelles.
                                     </p>
                                 </div>
-                                <div id="specification" class="container tab-pane fade">
-                                    <h4>Product specification</h4>
-                                    <ul>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
+                                <div id="specification" class="container tab-pane fade" appml-data="./jus.json">
+                                    <ul appml-repeat="jus">
+                                        <li><h4>{{name}}:</h4> <p>{{description}}</p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -167,7 +162,7 @@
                             <div class="col-lg-3">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Sirop de Gingembre</a>
+                                        <a href="#" id="sirop">Sirop de Gingembre</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -342,7 +337,7 @@
                             </div>
                             <div class="product-item">
                                 <div class="product-title">
-                                    <a href="#">Cocktail</a>
+                                    <a href="#" id="cockail">Cocktail</a>
                                     <div class="ratting">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -410,9 +405,11 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/slick/slick.min.js"></script>
+        
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src=""></script>
 </body>
 
 </html>
