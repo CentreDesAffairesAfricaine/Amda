@@ -1456,7 +1456,7 @@ h2 {
 }
 
 .sidebar-widget.brands ul li span {
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     color: #666666;
     font-size: 14px;
@@ -2519,5 +2519,10 @@ h2 {
     .footer-bottom .copyright,
     .footer-bottom .template-by {
         text-align: center;
+    }
+    div .livraison{
+        width: 95%;
+        margin: 10px;
+        border-radius: 10px;
     }
 }
